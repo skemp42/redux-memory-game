@@ -20,6 +20,7 @@ class App extends Component {
         memory : PropTypes.array.isRequired,
         actions  : PropTypes.object
     }
+    //flaps
 
     render() {
         const { memory, actions } = this.props;
